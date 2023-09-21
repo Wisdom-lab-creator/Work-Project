@@ -1,0 +1,83 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.header{
+    background-color: royalblue;
+    height: 50px;
+    font-size: 1em;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.incrementbutton{
+    width: 15%;
+    border: 4px solid green;
+    height: 30px;
+    background-color: green;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    
+}
+
+.incrementbutton:active {
+    background-color: indigo;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ 
+
+
+.incrementbutton:hover
+{background-color: indigo}
+
+.resetbutton{
+    width: 15%;
+    border: 4px solid #cccccc;
+    height: 30px;
+    background-color: silver;
+    font-size: 1.2em;
+    color: blue;
+    margin-top: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.resetbutton:active {
+    background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.resetbutton:hover
+{background-color: yellow}
+
+.decrementbutton{
+    width: 15%;
+    border: 4px solid red;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.901);
+    font-size: 1.2em;
+    color: black;
+    margin-top: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.decrementbutton:active {
+    background-color: violet;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.decrementbutton:hover
+{background-color: violet}
